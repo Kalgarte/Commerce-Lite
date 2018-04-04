@@ -1,0 +1,19 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@media (min-device-width: 980px) and (min-width: 980px), (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  nav.navigation {
+    margin-top: 30px;
+  }
+  nav.navigation .primary-menu ul.main-menu {
+    display: inline-block;
+    width: auto;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .logo {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+  }
+}
