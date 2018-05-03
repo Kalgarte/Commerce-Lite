@@ -1,7 +1,35 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+@media (min-device-width: 740px) and (min-width: 740px), (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* Style for user_bar region. */
+  .container-24 .grid-16.region-user-bar,
+  .container-24 .grid-17.region-footer {
+    width: 100%;
+  }
+  .block-menu-user-menu {
+    position: relative;
+    float: left;
+  }
+  .block-shopping-cart-block {
+    position: absolute;
+    right: 0;
+  }
 
-@media (min-device-width: 980px) and (min-width: 980px), (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* Footer Style. */
+  .block-menu-social-connection {
+    float: right;
+    display: inline-block;
+  }
+  .block-menu-social-connection {
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+  .block-menu-payment-methods {
+    display: inline-block;
+    min-width: 300px;
+    margin: 40px 0;
+  }
   nav.navigation {
     margin-top: 30px;
   }
